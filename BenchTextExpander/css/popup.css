@@ -1,0 +1,16 @@
+
+/* General UI */
+	header, html {
+	height: 100%;
+	width: 250px;
+	font: normal 9pt/16px Verdana;
+	margin: 0;
+	padding: 0;	
+	}
+	body, html {
+	height: 100%;
+	width: 250px;
+	font: normal 9pt/16px Verdana;
+	margin: 0;
+	padding: 0;
+}
