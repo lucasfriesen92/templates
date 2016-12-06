@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "js/templates.js", "js/constants.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/littleicon.png",
+         "38": "images/icon38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "__MSG_BROWSER_ACTION_TITLE__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/third_party/jquery-2.1.1-simplified.min.js", "js/third_party/moment-with-locales.min.js", "js/templates.js", "js/constants.js", "js/expander.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+  
+   "default_locale": "en",
+   "description": "__MSG_EXTENSION_DESCRIPTION__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_EXTENSION_NAME__",
+   "offline_enabled": true,
+   "omnibox": {
+      "keyword": "__MSG_KEYWORD_OMNIBAR_TRIGGER__"
+   },
+   "optional_permissions": [  ],
+   "options_page": "options.html",
+   "permissions": [ "tabs", "https://*/*", "contextMenus", "storage", "unlimitedStorage", "\u003Call_urls>", "notifications", "clipboardRead" ],
+   "short_name": "__MSG_EXTENSION_SHORTNAME__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.0.9"
+}
