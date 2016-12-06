@@ -1,0 +1,178 @@
+{
+   "BROWSER_ACTION_TITLE": {
+      "description": "Browser action default title.",
+      "message": "Click to view options for Bench Message Macros."
+   },
+   "ERROR_BACKUP_FAILED": {
+      "description": "Error message to be displayed to user when backup fails.",
+      "message": "Could not backup shortcuts! May be over size limit."
+   },
+   "ERROR_DUPLICATE_ITEMS": {
+      "description": "Error message to be displayed when duplicate shortcuts are found",
+      "message": "Duplicate shortcuts found!"
+   },
+   "ERROR_IMPORT_ADDING_ROWS": {
+      "description": "Error message to be displayed when errors adding rows from import",
+      "message": "Import failed! Errors found while adding shortcuts."
+   },
+   "ERROR_IMPORT_INVALID_JSON": {
+      "description": "Error message to be displayed when importing invalid json",
+      "message": "Import failed! Shortcuts were in an invalid JSON format."
+   },
+   "ERROR_IMPORT_NOT_OBJECT": {
+      "description": "Error message to be displayed when importing with an array at the top level",
+      "message": "Import failed! Shortcuts have to be defined in a top level JS object."
+   },
+   "ERROR_OVER_ITEM_QUOTA": {
+      "description": "Error message to be displayed when user goes over the max number of items that Chrome's sync API allows.",
+      "message": "Over Chrome user storage quota!"
+   },
+   "ERROR_OVER_ITEM_SPACE_QUOTA": {
+      "description": "Error message to be displayed when user goes over the quota for space per item that Chrome's sync API allows.",
+      "message": "Over shortcut max length!"
+   },
+   "ERROR_OVER_SPACE_QUOTA": {
+      "description": "Error message to be displayed when user goes over the quota for total storage space that Chrome's sync API allows.",
+      "message": "Over Chrome user storage quota!"
+   },
+   "ERROR_RESTORE_FAILED": {
+      "description": "Error message to be displayed to user when restore from backup fails.",
+      "message": "Could not restore backup! Data may be corrupted or storage limits may have changed."
+   },
+   "EXTENSION_DESCRIPTION": {
+      "description": "Extension description for the chrome webstore.",
+      "message": "Wouldn’t it be crazy if this actually worked?"
+   },
+   "EXTENSION_NAME": {
+      "description": "Extension name for the Chrome webstore.",
+      "message": "Bench Text Macro Alpha"
+   },
+   "EXTENSION_SHORTNAME": {
+      "description": "Extension short name for the Chrome webstore (\u003C 12 chars).",
+      "message": "Bench Macros"
+   },
+   "EXTENSION_TITLE": {
+      "description": "Extension short title.",
+      "message": "Bench Text Macros"
+   },
+   "HEADER_SHORTCUT_SECTION": {
+      "description": "Header for the shortcuts section of the options page",
+      "message": "Shortcuts"
+   },
+   "KEYWORD_OMNIBAR_TRIGGER": {
+      "description": "Omnibar (url address bar) trigger for extension.",
+      "message": "ate"
+   },
+   "MESSAGE_BACKUP_WARNING": {
+      "description": "Warning message when user is about to attempt backing up his or her shortcuts.",
+      "message": "This will save your currently defined shortcuts on the screen and overwrite the old backup. You can restore your shortcuts by clicking on the last backup date.\u003Cbr />\u003Cbr />\u003Cstrong>You will lose this backup if you sign out of the browser or uninstall the extension!\u003C/strong> Please use the import/export function to get a retrievable version of your shortcuts."
+   },
+   "MESSAGE_EMERGENCY_RESTORE_WARNING": {
+      "description": "Warning message to show user when we detect that they may want to restore to an emergency backup.",
+      "message": "We've detected that your shortcut data may have been corrupted in the version upgrade due to Chrome sync issues. We have stored an emergency backup of your sync data just in case. Would you like to restore to this backup?"
+   },
+   "MESSAGE_IMPORT_SUCCESS": {
+      "description": "Success message to user when import worked",
+      "message": "Import successful! Shortcuts are NOT saved yet, please save them."
+   },
+   "MESSAGE_RESTORE_WARNING": {
+      "description": "Warning message when user is about to attempt restoring his or her shortcuts from their last backup.",
+      "message": "This will overwrite your current shortcuts with your last backup!"
+   },
+   "TEMPLATE": {
+      "description": "Template",
+      "message": "template"
+   },
+   "TEXT_DEMO_SECTION": {
+      "description": "Text to insert into the demo section of the options page",
+      "message": "Try your shortcuts here! Make sure to save them first."
+   },
+   "TEXT_OPTIONS_DESCRIPTION": {
+      "description": "Text for options page description text.",
+      "message": "Edit your database of shortcuts and expansions here!"
+   },
+   "TEXT_PORT_VIEW_POPUP": {
+      "description": "Body text of import / export popup.",
+      "message": "\u003Cstrong class='error'>Caution!\u003C/strong> Write your own \u003Ca href='http://jsonformatter.curiousconcept.com/' target='_blank' title='JSON format'>JSON\u003C/a> to replace your current shortcuts (this does not override your local backup, and you will have to save them after importing). \u003Cbr />\u003Cbr />You can also find \u003Ca href='http://shancarter.github.io/mr-data-converter/' target='_blank' title='CSV or Tab to JSON'>converters\u003C/a> for CSV and tab-delimited data to JSON as well. I encourage you to copy and paste the JSON to save a copy to your own hard drive. Just in case! ;)"
+   },
+   "TITLE_ADD_BUTTON": {
+      "description": "Title for the add button for the options page",
+      "message": "Add"
+   },
+   "TITLE_BACKUP_BUTTON": {
+      "description": "Title for the backup button for the options page",
+      "message": "Backup"
+   },
+   "TITLE_BACKUP_TIMESTAMP_LABEL": {
+      "description": "Title for the last local backup timestamp message label",
+      "message": "Last local backup was"
+   },
+   "TITLE_BACK_TO_TOP_LINK": {
+      "description": "Title for the link to jump back to the top of the page",
+      "message": "Back to top"
+   },
+   "TITLE_CONVERT_BUTTON": {
+      "description": "Title for the convert button for the options page",
+      "message": "Convert"
+   },
+   "TITLE_DEMO_PAGE": {
+      "description": "Title for the demo page",
+      "message": "Demo"
+   },
+   "TITLE_FEATURE_REQUEST_LINK": {
+      "description": "Title for the feature request link on the options page",
+      "message": "Feature Requests"
+   },
+   "TITLE_FEEDBACK_LINK": {
+      "description": "Title for the feedback link on the options page",
+      "message": "Feedback"
+   },
+   "TITLE_IMPORT_BUTTON": {
+      "description": "Title for the import/export button for the options page",
+      "message": "Import / Export"
+   },
+   "TITLE_OPTIONS_PAGE": {
+      "description": "Title for the options page",
+      "message": "Options"
+   },
+   "TITLE_PORT_VIEW_POPUP": {
+      "description": "Title of import / export popup.",
+      "message": "Import / Export Shortcuts"
+   },
+   "TITLE_REFRESH_BUTTON": {
+      "description": "Title for the refresh button for the options page",
+      "message": "Refresh"
+   },
+   "TITLE_SAVE_BUTTON": {
+      "description": "Title for the save button for the options page",
+      "message": "Save"
+   },
+   "TITLE_SHORTCUT_QUOTA_LABEL": {
+      "description": "Title for the # of shortcuts of sync storage used message label",
+      "message": "shortcuts used out of"
+   },
+   "TITLE_STORAGE_QUOTA_LABEL": {
+      "description": "Title for the # of bytes of sync storage used message label",
+      "message": "bytes used out of"
+   },
+   "TITLE_TIMEOUT_LABEL": {
+      "description": "Title for the shortcut timeout label on the options page",
+      "message": "Shortcut Timeout"
+   },
+   "TITLE_TIPS_LINK": {
+      "description": "Title for the link to useful tips and information on the options page",
+      "message": "Useful tips"
+   },
+   "TITLE_WARNING_POPUP": {
+      "description": "Title of warning popup.",
+      "message": "Warning"
+   },
+   "WARNING_SHORTCUT_DISABLED": {
+      "description": "Warning message to user that their shortcuts are disabled when in unreliable states.",
+      "message": "Your Bench Message Macro shortcuts have been disabled to prevent unexpected behavior."
+   },
+   "WARNING_SHORTCUT_VERSION_MISMATCH": {
+      "description": "Warning message to user that their shortcuts are not yet synced with their app version",
+      "message": "Warning! Your shortcuts database version doesn't match your extension version. This may be because they haven't been fully synced yet. Please try reloading the extension or restarting the browser to avoid corrupting your data!"
+   }
+}
